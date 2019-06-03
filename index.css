@@ -1,0 +1,24 @@
+body
+{
+	background-color: #000;
+	color: #FFF;
+}
+
+div
+{
+	font-family: Arial;
+	font-weight: 100;
+	font-size: 30pt;
+}
+
+#lastUpdated
+{
+	font-size: 10pt;
+}
+
+#time
+{
+	height: 100%;
+	width: 100%;
+	font-size: 15vw;
+}
