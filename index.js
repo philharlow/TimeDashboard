@@ -12,9 +12,9 @@ function isValidKey(val)
 let searchParams = new URLSearchParams(window.location.search);
 if (searchParams.has('reset'))
 {
-	window.localStorage.setItem('apiKey', null);
-	window.localStorage.setItem('startAddress', null);
-	window.localStorage.setItem('endAddress', null);
+	window.localStorage.setItem('apiKey', '');
+	window.localStorage.setItem('startAddress', '');
+	window.localStorage.setItem('endAddress', '');
 }
 
 let apiKey = window.localStorage.getItem('apiKey');
